@@ -1,0 +1,33 @@
+<div class="car">
+  <div class="car_image">
+    <img src="cars/car1.jpeg" alt="car1" />
+  </div>
+  <div class="car_content">
+    <h2>MERCEDES S550 benzin-gaz LUK AMG</h2>
+    <span class="car_chassis_number">
+      <strong>Numri i Shasisë:</strong>
+      <span>SV30-0169266</span>
+    </span> <br />
+    <span class="car_kilometers">
+      <strong>Kilometrazha:</strong>
+      <span>200 000 - 249 999 km</span>
+    </span> <br />
+    <span class="car_registration">
+      <strong>Regjistrimi:</strong>
+      <span>05-695-AO</span>
+    </span> <br />
+    <span class="car_registration_date">
+      <strong>Data e regjistrimit:</strong>
+      <span>02/02/2021</span>
+    </span> <br />
+    <span class="car_registration_due_date">
+      <strong>Data e skadimit të regjistrimit:</strong>
+      <span>05/02/2022</span>
+    </span> <br />
+    <span class="car_kilometers">
+      <strong>Disponueshmëria:</strong>
+      <span>Aktive</span>
+    </span> <br />
+    <button class="car_view_more">Shiqo më shum</button>
+  </div> <!-- car_content -->
+</div> <!-- car -->
