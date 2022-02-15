@@ -1,3 +1,3 @@
 # rent-a-car
 
-Mos ma prekni projektin a
+Version 1.1 Uploadimi i fotove
