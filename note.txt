@@ -1,0 +1,16 @@
+Hello, hope this file finds you well.
+
+To use our project first create a database in phpmyadmin and name it rentacar. After that open the sql.sql file located in this folder. Copy all the text and paste it in the sql tab in phpmyadmin or just import it.
+
+To start using the application you will have 4 "categories". Avaliable Cars, Unavaliable (Rented) Cars, Clients and Admin.
+
+In the "VETURAT" section you will have a display of all your not rented cars, when you click "Të dhënat" you will have the car information and all services done to that car.
+When you click on the "Rent" button you will have to select your client (which you have to create at the "Klientet" section), after selecting your client you will have to fill te form and after that your call will go in the reserved(rented) cars.
+
+At the "REZERVIMET" categorie you will have a list of all your rented cars and it's information. When that car's rent is over you can just click on the "Përfundo Terminin" button and the car will go back to the avaliable section. 
+
+The "KLIENTËT" section you will be introduced with all your clients, where you can also add new clients.
+
+And last but not least the "ADMIN" section is a display of all your cars, where you can also add new ones.
+
+With Love Arti & Drini.

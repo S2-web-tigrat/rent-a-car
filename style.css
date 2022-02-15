@@ -1,0 +1,271 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #4F5D75;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+nav > h1 {
+  background: #2D3142;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 35px;
+  border-bottom: 1px solid white;
+}
+
+nav>ul {
+  text-align: center;
+  background: #2D3142;
+  padding: 20px 0;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+
+nav > ul > li {
+  list-style: none;
+  display: inline;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+nav>ul>li>a {
+  color: white;
+  text-decoration: none;
+  padding: 20px 68px;
+  border: 1px solid white;
+}
+
+nav>ul>li>a:hover {
+  background-color: white;
+  color: #002244;
+}
+
+nav>ul>li>a.active {
+  background-color: white;
+  color: #002244;
+}
+
+#content {
+  width: 80%;
+  margin: 30px auto;
+  animation: fadeIn 2s;
+}
+
+#cars > .car {
+  width: 70%;
+  margin: 20px auto;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#cars>.car:after {
+  content:"";
+  display:block;
+  clear:both;
+}
+
+#cars > .car > .car_image {
+  width: 30%;
+  float: left;
+}
+
+#cars > .car > .car_image > img {
+  width: 95%;
+}
+
+#cars > .car > .car_content {
+  width: 70%;
+  float: right;
+}
+
+#cars > .car > .car_content > h2 {
+  padding-bottom: 5px;
+}
+
+#cars > .car > .car_content > span > strong {
+  display: inline-block;
+  width: 215px;
+}
+
+#cars>.car>.car_content>button {
+  color: white;
+  font-size: 18px;
+  padding: 5px 15px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 49%;
+}
+
+#cars>.car>.car_content>button.car_services { background-color: green;  }
+#cars>.car>.car_content>button.car_rent { background-color: red;  }
+
+#cars .car .all_car_information {
+  clear: both;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.car .all_car_information table,
+.car .all_car_information table tr th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.car .all_car_information table tr:nth-child(odd) {
+  background-color: #2D3142;
+  color: white;
+}
+
+
+#cars .car .all_car_information button.service_action {
+  border: none;
+  padding: 5px;
+  color: white;
+  margin: 2px;
+  cursor: pointer;
+}
+
+/* #cars .car .all_car_information button.service_edit {
+  width: 40%;
+  background: #4F5D75;
+  float: left;
+} */
+
+#cars .car .all_car_information button.service_delete {
+  /* width: 40%; */
+  background: red;
+  /* float: right; */
+}
+
+#cars .car .all_car_information button.service_add {
+  background: green;
+}
+
+/*  */
+#cars .car .rentcar {
+  clear: both;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.car .rentcar table,
+.car .rentcar table tr th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.car .rentcar table tr:nth-child(odd) {
+  background-color: #2D3142;
+  color: white;
+}
+
+
+#cars .car .rentcar button.rent_add {
+  border: none;
+  padding: 5px;
+  color: white;
+  margin: 2px;
+  cursor: pointer;
+  background: green;
+}
+
+
+
+/*  */
+#clients table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#clients th,
+#clients td {
+  text-align: left;
+  padding: 8px;
+}
+
+#clients tr:nth-child(odd) {
+  background: #2D3142;
+  color: white;
+}
+
+#clients tr:nth-child(even) {
+  background-color: #f2f2f2;
+  color: #2D3142;
+}
+
+#clients button.add_client_button {
+  width: 70%;
+  background: green;
+  color: white;
+  text-align: center;
+  padding: 10px 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Admin */
+#admin table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#admin th,
+#admin td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #002244;
+}
+
+#admin tr:nth-child(odd) {
+  background: #2D3142;
+  color: white;
+}
+
+#admin tr:nth-child(even) {
+  background-color: #f2f2f2;
+  color: #2D3142;
+}
+
+#admin button.add_car_button {
+  width: 70%;
+  background: green;
+  color: white;
+  text-align: center;
+  padding: 10px 5px;
+  border: none;
+  cursor: pointer;
+}
+
+
+div.table 
+{
+  display:table;
+}
+form.tr, div.tr
+{
+  display:table-row;
+}
+span.td
+{
+  display:table-cell;
+}
